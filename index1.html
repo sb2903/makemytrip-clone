@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Book Your Perfect Trip</h1>
+            <p>Discover amazing destinations at exclusive prices</p>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-tabs">
+                    <button class="tab active" data-tab="flights">Flights</button>
+                    <button class="tab" data-tab="hotels">Hotels</button>
+                    <button class="tab" data-tab="packages">Packages</button>
+                </div>
+
+                <div class="search-form" id="flights-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="From">
+                        <input type="text" placeholder="To">
+                    </div>
+                    <div class="input-group">
+                        <input type="date" placeholder="Departure">
+                        <input type="date" placeholder="Return">
+                    </div>
+                    <button class="search-btn">Search Flights</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
